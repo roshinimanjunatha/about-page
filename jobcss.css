@@ -1,0 +1,115 @@
+        body {
+            margin: 0;
+            background-color:gainsboro;
+            color: black;
+        }
+
+        /* NAVBAR */
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: lightblue;
+        }
+
+        .logo {
+            color: darkblue;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 25px;
+        }
+
+        .nav-links a {
+            color: black;
+            text-decoration: none;
+        }
+
+        .nav-links a:hover {
+            color: blue;
+        }
+
+
+        /* HEADING */
+
+        .heading {
+            text-align: center;
+            padding: 30px;
+        }
+
+        .heading h1 {
+            color: darkblue;
+        }
+
+
+        /* CONTACT */
+
+        .contact-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            padding: 30px;
+        }
+
+
+        /* CONTACT INFORMATION */
+
+        .contact-info {
+            background-color: lightblue;
+            border: 2px solid blue;
+            padding: 25px;
+            border-radius: 20px;
+        }
+
+        .contact-info h2 {
+            color: darkblue;
+        }
+
+
+        /* FORM */
+
+        .contact-form {
+            border: 2px solid blue;
+            padding: 25px;
+            border-radius: 30px;
+        }
+
+        .contact-form h2 {
+            color: darkblue;
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            width: 90%;
+            padding: 12px;
+            margin: 10px;
+            border: 2px solid blue;
+            border-radius: 10px;
+        }
+
+        .contact-form button {
+            background-color: blue;
+            color: white;
+            padding: 12px 25px;
+            border: 2px solid blue;
+            margin: 10px;
+            border-radius: 10px;
+        }
+
+        .contact-form button:hover {
+            background-color: darkblue;
+        }
+
+
+        /* FOOTER */
+
+        footer {
+            background-color:  #2855e8;
+            color: white;
+            padding: 25px;
+            text-align: center;
+            margin-top: 30px;
+        }

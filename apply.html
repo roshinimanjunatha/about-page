@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CampusConnect - Application Submitted</title>
+
+    <style>
+        body {
+            background-color: #f2f6ff;
+            font-family: Arial;
+            margin: 0;
+        }
+
+        .navbar {
+            background-color: #1e5eff;
+            color: white;
+            padding: 15px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+        }
+
+        .message {
+            width: 500px;
+            margin: 100px auto;
+            padding: 40px;
+            background-color: white;
+            border: 2px solid #1e5eff;
+            text-align: center;
+        }
+
+        .message h1 {
+            color: #1e5eff;
+        }
+
+        .message p {
+            margin-top: 20px;
+        }
+
+        button {
+            background-color: #1e5eff;
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            margin: 10px;
+        }
+
+        button:hover {
+            background-color: #1648c0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="navbar">
+
+        <h2>CampusConnect</h2>
+
+        <div>
+            <a href="stddashb.html">Dashboard</a>
+            <a href="oppo.html">Opportunities</a>
+            <a href="myapp.html">Applications</a>
+            <a href="prj2.html">Logout</a>
+        </div>
+
+    </div>
+
+
+    <div class="message">
+
+        <h1>Application Submitted!</h1>
+
+        <p>
+            Your application has been submitted successfully.
+        </p>
+
+        <p>
+            You can track your application status from
+            <b>My Applications</b>.
+        </p>
+
+        <button onclick="location.href='myapp.html'">
+            My Applications
+        </button>
+
+        <button onclick="location.href='oppo.html'">
+            Browse More Opportunities
+        </button>
+
+    </div>
+
+</body>
+</html>

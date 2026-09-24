@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CampusConnect - My Applications</title>
+
+    <style>
+        body {
+            background-color: #f2f6ff;
+            font-family: Arial;
+            margin: 0;
+        }
+
+        .navbar {
+            background-color: #1e5eff;
+            color: white;
+            padding: 15px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+        }
+
+        .applications {
+            padding: 30px;
+        }
+
+        h1 {
+            color: #1e5eff;
+        }
+
+        .application-list {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin-top: 30px;
+        }
+
+        .application {
+            background-color: white;
+            border: 2px solid #1e5eff;
+            padding: 20px;
+            border-radius: 30px;
+        }
+
+        .application h2 {
+            color: #1e5eff;
+        }
+
+        .status {
+            padding: 8px;
+            margin-top: 10px;
+            display: inline-block;
+        }
+
+        .pending {
+            background-color: orange;
+        }
+
+        .shortlisted {
+            background-color: lightgreen;
+        }
+
+        .rejected {
+            background-color: lightcoral;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="navbar">
+
+        <h2>CampusConnect</h2>
+
+        <div>
+            <a href="stddashb.html">Dashboard</a>
+            <a href="stdprf.html">Profile</a>
+            <a href="myapp.html">Applications</a>
+            <a href="prj2.html">Logout</a>
+        </div>
+
+    </div>
+
+
+    <div class="applications">
+
+        <h1>My Applications</h1>
+
+        <p>Track the status of your job and internship applications.</p>
+
+
+        <div class="application-list">
+
+            <div class="application">
+
+                <h2>Software Developer Intern</h2>
+
+                <p><b>Company:</b> ABC Technologies</p>
+
+                <p><b>Location:</b> Bangalore</p>
+
+                <p><b>Type:</b> Internship</p>
+
+                <p class="status pending">
+                    Status: Pending
+                </p>
+
+            </div>
+
+
+            <div class="application">
+
+                <h2>Web Developer</h2>
+
+                <p><b>Company:</b> XYZ Solutions</p>
+
+                <p><b>Location:</b> Mysore</p>
+
+                <p><b>Type:</b> Job</p>
+
+                <p class="status shortlisted">
+                    Status: Shortlisted
+                </p>
+
+            </div>
+
+
+            <div class="application">
+
+                <h2>Data Analyst Intern</h2>
+
+                <p><b>Company:</b> Tech Solutions</p>
+
+                <p><b>Location:</b> Bangalore</p>
+
+                <p><b>Type:</b> Internship</p>
+
+                <p class="status rejected">
+                    Status: Rejected
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+</html>

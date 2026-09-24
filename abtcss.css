@@ -1,0 +1,105 @@
+        body {
+            margin: 0;
+            background-color:gainsboro;
+            color: black;
+        }
+
+        /* NAVBAR */
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: white;
+        }
+
+        .logo {
+            color: darkblue;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 25px;
+        }
+
+        .nav-links a {
+            color: black;
+            text-decoration: none;
+        }
+
+        .nav-links a:hover {
+            color: blue;
+        }
+
+        /* ABOUT */
+
+        .about {
+            text-align: center;
+            padding: 40px;
+        }
+
+        .about h1 {
+            color: darkblue;
+        }
+
+        .about p {
+            padding: 10px;
+        }
+
+        /* PURPOSE */
+
+        .purpose {
+            background-color:white;
+            padding: 30px;
+            margin: 20px;
+            border: 2px solid blue;
+            border-radius: 30px;
+            box-shadow: 5px 5px 5px 5px gray;
+        }
+
+        /* WHO CAN USE */
+
+        .users {
+            padding: 30px;
+        }
+
+        .user-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 20px;
+        }
+
+        .user-card {
+            border: 2px solid blue;
+            padding: 20px;
+            text-align: center;
+             border-radius: 40px;
+            box-shadow: 5px 5px 5px 8px gray;
+        }
+
+        .user-card h3 {
+            color: darkblue;
+        }
+
+        /* WHY CAMPUSCONNECT */
+
+        .why {
+            background-color: white;
+            padding: 30px;
+            margin: 20px;
+            border: 2px solid blue;
+            text-align: center;
+            border-radius: 40px;
+            box-shadow: 5px 5px 5px 8px gray;
+        }
+
+        /* FOOTER */
+
+        footer {
+            background-color:  #2855e8;
+            color: white;
+            padding: 25px;
+            text-align: center;
+            margin-top: 30px;
+        }

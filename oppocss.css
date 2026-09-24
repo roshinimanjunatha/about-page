@@ -1,0 +1,114 @@
+        body {
+            margin: 0;
+            background-color: gainsboro;
+            color: black;
+        }
+
+        /* NAVBAR */
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: lightblue;
+        }
+
+        .logo {
+            color: darkblue;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 25px;
+        }
+
+        .nav-links a {
+            color: black;
+            text-decoration: none;
+        }
+
+        .nav-links a:hover {
+            color: blue;
+        }
+
+
+        /* PAGE HEADING */
+
+        .heading {
+            text-align: center;
+            padding: 30px;
+        }
+
+        .heading h1 {
+            color: darkblue;
+        }
+
+
+        /* SEARCH */
+
+        .search {
+            text-align: center;
+            padding: 20px;
+
+        }
+
+        .search input {
+            width: 400px;
+            padding: 12px;
+            border: 2px solid blue;
+            border-radius: 20px;
+        }
+
+        /* OPPORTUNITIES */
+
+        .opportunities {
+            padding: 30px;
+        }
+
+        .opportunity-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 20px;
+        }
+
+
+        /* CARD */
+
+        .card {
+            border: 2px solid blue;
+            padding: 20px;
+            margin: 5px;
+            border-radius: 30px;
+            box-shadow:5px 5px 5px 8px gray;
+        }
+
+        .card h2 {
+            color: darkblue;
+        }
+
+        .card p {
+            padding: 5px;
+        }
+
+        .card button {
+            background-color: blue;
+            color: white;
+            border: 2px solid blue;
+            padding: 10px 20px;
+        }
+
+        .card button:hover {
+            background-color: darkblue;
+        }
+
+
+        /* FOOTER */
+
+        footer {
+            background-color:  #2855e8;
+            color: white;
+            padding: 25px;
+            text-align: center;
+            margin-top: 30px;
+        }
